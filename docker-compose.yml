@@ -1,0 +1,6 @@
+﻿services:
+  sensitivefileshare:
+    image: sensitivefileshare
+    build:
+      context: .
+      dockerfile: SensitiveFileShare/Dockerfile
